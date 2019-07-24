@@ -78,7 +78,7 @@ app.put('/image', (req, res) => {
 		if (user.id === id ) {
 			found = true
 			user.entries++
-			return res.send(user)
+			return res.send(`${user.entries}`)
 		}
 	})
 	if (!found) {
