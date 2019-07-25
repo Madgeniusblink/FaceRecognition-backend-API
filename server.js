@@ -14,8 +14,8 @@ const image = require('./controllers/image')
 const db = knex({
 	client: 'pg',
 	connection: {
-	  host : '127.0.0.1',
-	  user : 'development',
+	  host : 'postgresql-elliptical-13500',
+	  user : 'daahmpojioijku',
 	  password : '',
 	  database : 'face-recognition'
 	}
