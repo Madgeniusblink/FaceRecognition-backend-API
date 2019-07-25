@@ -23,7 +23,7 @@ const db = knex({
 
 // SERVER APP
 const app = express()
-const port = 8080 || process.env.PORT
+const port = process.env.PORT || 8080
 
 // BCRYPT SETTINGS
 const saltRounds = 10;
