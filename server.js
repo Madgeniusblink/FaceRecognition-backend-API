@@ -35,7 +35,7 @@ app.use(cors())
 // ROUTES
 app.get('/', (req, res) => {
 	try {
-		res.send('It is working!')
+		res.send('It is working!!')
 	} catch (error) {
 		res.status(400).send(error)
 	}
